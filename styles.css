@@ -94,7 +94,6 @@ nav a:hover {
     gap: 0rem;
     font-family: var(--body);
     font-size: 1.5rem;
-    column-gap: 0;
 }
 
 .kente {
