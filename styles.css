@@ -65,8 +65,9 @@ fieldset {
     border: 10px;
     padding: 0;
     margin: 0;
-    text-align: center;
     border-color: var(--brown);
+    width: 40vw;
+    text-align: left;
 }
 
 .nav-container {
@@ -76,14 +77,19 @@ fieldset {
     font-family: var(--body);
     font-size: 1.5rem;
 }
+
+nav:hover {
+    background-color: white;
+}
+
 .about {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vw;
-    width:90vw;
+    height: 100vh;
+    width:100vh;
     margin: 0;
     padding: 4rem;
     gap: 0rem;
@@ -93,7 +99,8 @@ fieldset {
 }
 
 .kente {
-    height: 50vw;
+    height: 100vh;
+    width: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
