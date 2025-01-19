@@ -30,16 +30,6 @@ h1, h2, h3 {
     font-family: var(--title);
     font-weight: bolder;
 }
-
-nav {
-    display: flex;
-    color: white;
-    align-items: center;
-    background-color: var(--brown);
-    justify-content: space-between;
-    padding: 15px;;
-}
-
 a {
     text-decoration: none;
     color: inherit
@@ -53,35 +43,51 @@ a {
 
 legend {
     font-weight: bolder;
-    padding: 15px;;
+    padding: 15px;
     font-size: 2rem;
+    border: 20px solid var(--sand);
     text-align: center;
     background-color: white;
     color: var(--brown);
+    font-family: Syne;
 }
 
 fieldset {
-    border-radius: 1%;
+    /* border-radius: 1%;
     border-style: double;
-    border: 10px;
+    border: 10px; */
     padding: 0;
     margin: 0;
-    border-color: var(--brown);
+    /* border-color: var(--brown); */
     width: 40vw;
     color: white;
     text-align: left;
-    background-color: rgba(89, 82, 68, 0.9);
-    padding: 30px;
-    border-radius: 1rem;
+    /* background-color: rgba(89, 82, 68, 0.9); */
+    padding: 50px;
+    border: .25em solid var(--brown);
+    /* border: 0; */
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns content to the right */
+    justify-content: flex-end; /* Positions it at the bottom */
+    position: fixed; /* Fixes the position to the viewport */
+    top: 1em; /* Places the navbar at the bottom */
+    right: 1em; /* Positions it on the right side */
+    background-color: var(--brown);
+    padding: 15px;
+    gap: 10px; /* Adds spacing between items */
+    color: white;
+    margin: auto;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: right;
-    gap: 5rem;
+    flex-direction: column; /* Stacks links vertically */
     font-family: var(--body);
     font-size: 1.5rem;
-    width: 100vw;
 }
 
 nav a:hover {
@@ -100,11 +106,11 @@ nav a:hover {
     gap: 0rem;
     font-family: var(--body);
     font-size: 1.5rem;
-    background-image: url(/images/IMG_0512.jpeg);
+    /* background-image: url(/images/IMG_0512.jpeg); */
     background-size: 60vw 60vh;
     background-repeat: no-repeat;
     background-position: 50%;
-    
+    font-weight: 500;
 }
 
 
