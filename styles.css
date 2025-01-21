@@ -4,7 +4,7 @@
     src: url(/fonts/Syne/Syne-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: Space_mono;
+    font-family: Space_mono, monospace;
     src: url(/fonts/Space_Mono/SpaceMono-Bold.ttf);
     src: url(/fonts/Space_Mono/SpaceMono-BoldItalic.ttf);
     src: url(/fonts/Space_Mono/SpaceMono-Italic.ttf);
@@ -22,14 +22,12 @@
     --sand: #CCC3B1;
     --brown: #595244;
     --white: #FEFDFC;
-    --title: Syne;
-    --body: Space_mono;
 }
 
 body {
     background-color: var(--sand);
     color: var(--brown);
-    font-family: Space_mono;
+    font-family: Space_mono, monospace;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -38,7 +36,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: var(--title);
+    font-family: Syne, sans-serif;
     font-weight: bolder;
 }
 
@@ -58,7 +56,7 @@ p {
 }
 
 .title {
-    font-family: var(--title) !important;
+    font-family: Syne, sans-serif !important;
     font-weight: bolder;
     font-size: 32px;
 }
@@ -172,4 +170,13 @@ nav a:hover {
 .vl {
 border-left: 3px solid #595244;
   height: 500px;
+}
+
+@media (max-width: 1024px) {
+    .hero-sections {
+        flex-direction: column;
+    }
+    .nav-container {
+        font-size: 1.2rem;
+    }
 }
