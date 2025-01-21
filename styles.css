@@ -135,7 +135,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-position: 50%;
     font-weight: 500;
-    font-size: 1.5rem; /* Based on root font size */
+    font-size: 1.5vw; /* Based on root font size */
     padding: 2rem; /* Use fixed spacing for consistent appearance */
 }
 
