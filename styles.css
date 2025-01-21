@@ -41,9 +41,10 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     text-transform: uppercase;
     padding: 1rem;
+    width: fit-content
 }
 
 a {
@@ -157,7 +158,7 @@ nav a:hover {
 
 
 .hero-sections {
-    font-size: 1.5vw;
+    font-size: 1vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -168,13 +169,13 @@ nav a:hover {
 }
 
 .vl {
-border-left: 3px solid #595244;
-  height: 500px;
+    border-left: 3px solid #595244;
+    height: 500px;
 }
 
 iframe {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 @media (max-width: 1024px) {
