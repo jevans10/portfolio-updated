@@ -76,6 +76,7 @@ legend {
     color: var(--brown);
     font-family: Syne;
     display: block;
+    text-align: center;
 }
 
 fieldset {
@@ -85,8 +86,8 @@ fieldset {
     font-size: 1em;
     border: .25em solid var(--brown);
     padding: 1rem;
-    display: block;
     margin-bottom: 1rem;
+    line-height: 5vh;
 }
 
 .post-box-text {
@@ -179,5 +180,16 @@ nav a:hover {
     }
     .nav-container {
         font-size: 1.2rem;
+    }
+    fieldset {
+        width: 60vw;
+        font-size: 1.5vh;
+        line-height: 7.5vh;
+        padding: 0;
+    }
+
+    .about {
+        font-size: 2vh;
+        padding: 1vh;
     }
 }
