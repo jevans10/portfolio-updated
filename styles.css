@@ -17,24 +17,6 @@
     box-sizing: border-box; /* Prevents content-box sizing issues */
 }
 
-.skip-link {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    background: #007BFF;
-    color: white;
-    padding: 8px 12px;
-    text-decoration: none;
-    font-size: 16px;
-    z-index: 1000;
-    border-radius: 4px;
-    transition: top 0.3s ease;
-}
-.skip-link:focus {
-    top: 10px;
-    outline: none;
-}
-
 :root{
     --sand: #CCC3B1;
     --brown: #595244;
@@ -154,6 +136,14 @@ nav a:hover {
     font-weight: 500;
     font-size: 1.5vw; /* Based on root font size */
     padding: 2rem; /* Use fixed spacing for consistent appearance */
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 1vh 0;
 }
 
 /* Ensure the kente section stays contained */
