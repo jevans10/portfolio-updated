@@ -172,7 +172,7 @@ li {
     align-items: center;
     gap: 1rem;
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 5rem;
     min-height: calc(100vh - 5rem); /* Subtract fixed elements if necessary */
 }
 
