@@ -4,7 +4,7 @@
     src: url(/fonts/Syne/Syne-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: Space_mono, monospace;
+    font-family: Space_mono;
     src: url(/fonts/Space_Mono/SpaceMono-Bold.ttf);
     src: url(/fonts/Space_Mono/SpaceMono-BoldItalic.ttf);
     src: url(/fonts/Space_Mono/SpaceMono-Italic.ttf);
@@ -87,6 +87,7 @@ fieldset {
     padding: 1rem;
     margin-bottom: 1rem;
     line-height: 5vh;
+    font-family: Space_mono;
 }
 
 .post-box-text {
